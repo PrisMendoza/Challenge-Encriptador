@@ -25,7 +25,7 @@
             </section>  
 
             <section class="mensajes">               
-                <textarea id="texto-encriptado" class="campo-texto" placeholder="Ingresa tu texto sin mayusculas o acentos"></textarea>                 
+                <textarea id="texto-encriptado" class="campo-texto" placeholder="Ingresa tu texto sin mayusculas o acentos" onkeyup="this.value = this.value.toLowerCase();"></textarea>                 
                 <div class="btn">         
                     <button class="btnEncriptar" onclick="btnEncriptar()"><img class="regadera" src="images/regaderastatic.png" alt="regadera-encriptar"></button>                    
                     <button class="btnDesencriptar" onclick="btnDesencriptar()"><img class="regadera2" src="images/desencriptar.png" alt="regadera-desencriptar"></button>

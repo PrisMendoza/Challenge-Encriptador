@@ -75,7 +75,7 @@ p{
   margin-top: 5%;
   display: block;
   text-align: center;
-  text-shadow: 0 0 1em rgb(41, 41, 41), 0 0 0.2em rgb(85, 85, 85);
+  text-shadow: 0 0 5px rgb(0, 0, 0), 0 .1em 15px rgb(0, 0, 0);
   width: 50%;
   margin-left: auto;
   margin-right: auto;
