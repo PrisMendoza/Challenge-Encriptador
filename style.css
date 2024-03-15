@@ -128,6 +128,7 @@ p{
   backdrop-filter: blur(3px);
   background-color: rgba(255, 255, 255, 0.021);
   outline: none;
+  resize: none;
 }
 
 .btn{
